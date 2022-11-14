@@ -1,0 +1,169 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.names{
+  color:red;
+  text-align: center;
+}
+.addtask{
+  margin-right:200px;
+  text-align:center;
+
+}
+.addTaskButton{
+
+font-weight: bolder;
+border-style: solid;
+margin-right:60px;
+border-radius: 5px;
+border-width: 2px;
+
+}
+.list{
+  text-align: center;
+  margin-right: 60px;
+}
+.task{
+  width:auto;
+  background-size: auto;
+  
+}
+.task{
+  border-style:double;
+  border-radius: 5px;
+  border-width:5px;
+  padding:1px;
+  position:relative;
+  height:120px;
+  width:500px;
+  margin:0 auto;
+  transition: background-color 1s;
+  left:0;
+  
+}
+.task.swap{
+background-color:#e00;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.textBox{
+margin-right:55px;
+}
+
+.wrapper{
+overflow: hidden;
+
+ 
+}
+
+.slidingbackground{
+  
+  height: 960px;
+  width: 6000px;
+}
+.completeButton{
+ 
+  font-weight: bold; 
+  background-color: rgb(188, 187, 187);
+  position:relative;
+  bottom:55px;
+  border-style: double;
+  border-radius: 50px;
+
+}
+.deleteButton{
+  color:white;
+  border-color:gray;
+  background-color: black;
+  font-size: 10px;
+  position:relative;
+  left:230px;
+  bottom:147px;
+  border-style: double;
+  border-radius: 30px;
+  
+}
+input[type=checkbox] {
+  visibility: hidden;
+}
+.checkboxExample{
+  position: relative;
+  bottom:15px;
+  top:5px;
+  left:210px;
+  width: 45px;
+  height: 15px;
+  background: #555;
+  margin: 20px 10px;
+  position: relative;
+  border-radius: 5px;
+}
+.checkboxExample label{
+        display: block;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        transition: all .5s ease;
+        cursor: pointer;
+        position: absolute;
+        top: -2px;
+        left: -3px;
+        background: #ccc;
+}
+
+.checkboxExample input[type=checkbox]:checked + label {
+  left: 27px;
+}
+
+
+.card{
+ position: relative;
+ right:6px;
+ bottom:59px;
+ width: 500px;
+  opacity: 0.1;
+
+ 
+}
+
