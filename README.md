@@ -7,5 +7,5 @@
 # Technologies Used
   * Html
   * CSS
-  * Javascript
+  * JavaScript
   * React.js
