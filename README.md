@@ -9,3 +9,4 @@
   * CSS
   * JavaScript
   * React.js
+  * Bootstrap
